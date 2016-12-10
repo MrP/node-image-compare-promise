@@ -1,0 +1,32 @@
+{
+  "name": "node-image-compare-promise",
+  "version": "0.1.0",
+  "description": "Compares images returning a promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrP/node-image-compare-promise.git"
+  },
+  "keywords": [
+    "node",
+    "image",
+    "compare",
+    "promise"
+  ],
+  "author": "Victor Rodriguez Gil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrP/node-image-compare-promise/issues"
+  },
+  "homepage": "https://github.com/MrP/node-image-compare-promise#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "dependencies": {
+    "fs-promise": "^1.0.0",
+    "node-resemble-js": "^0.2.0"
+  }
+}

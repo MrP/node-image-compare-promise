@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/MrP/node-image-compare-promise#readme",
   "devDependencies": {
-    "jasmine": "^2.5.3"
+    "jasmine": "^2.6.0"
   },
   "dependencies": {
-    "fs-promise": "^2.0.2",
+    "fs-extra": "^3.0.1",
     "node-resemble-js": "^0.2.0"
   }
 }

@@ -1,5 +1,5 @@
 var resemble = require('node-resemble-js');
-var fsp = require('fs-promise');
+var fsp = require('fs-extra');
 
 module.exports.compareImages = function compareImages(pathImage1, pathImage2) {
     return Promise.all([

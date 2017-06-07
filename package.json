@@ -1,6 +1,6 @@
 {
   "name": "node-image-compare-promise",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Compares images returning a promise",
   "main": "index.js",
   "scripts": {

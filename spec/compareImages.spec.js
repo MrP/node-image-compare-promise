@@ -14,16 +14,22 @@ describe('compareImages', function () {
     it('rejects on unexisting image', function (done) {
         compareImages('spec/testDoesntExist.png', 'spec/testSame.png')
         .then(done.fail)
-        .catch(done);
+        .catch(function () {
+            done();
+        });
     });
     it('rejects on unexisting second image', function (done) {
         compareImages('spec/test.png', 'spec/testDoesntExist.png')
         .then(done.fail)
-        .catch(done);
+        .catch(function () {
+            done();
+        });
     });
     it('rejects on unexisting images', function (done) {
         compareImages('spec/testDoesntExist.png', 'spec/testDoesntExist.png')
         .then(done.fail)
-        .catch(done);
+        .catch(function () {
+            done();
+        });
     });
 });
